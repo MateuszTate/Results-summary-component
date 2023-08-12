@@ -1,0 +1,108 @@
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainBox {
+    background-color: hsl(0, 0%, 100%);
+    width: 35%;
+    height: 55%;
+    display: flex;
+    -webkit-box-shadow: 7px 7px 30px -12px rgba(0, 5, 73, 1);
+    -moz-box-shadow: 7px 7px 30px -12px rgba(0, 5, 73, 1);
+    box-shadow: 7px 7px 30px -12px rgba(0, 5, 73, 1);
+    border-radius: 30px;
+}
+
+.mainBox > .leftBox {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 100%;
+    width: 50%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainBox > .rightBox {
+    background-color: hsl(0, 0%, 100%);
+    height: 100%;
+    width: 50%;
+    border-radius: 30px;
+}
+
+.leftBox > .leftHeader {
+    font-size: 1.56rem;
+    font-weight: 700;
+    color: hsl(241, 100%, 89%);
+}
+
+.leftBox > .leftMain > div{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.leftMain > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftMain > div > span {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftMain > div > .firstLine {
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+    font-size: 3.6rem;
+}
+
+.leftMain > div > .secondLine {
+    color: hsl(241, 100%, 89%);
+    font-size: 1.2rem;
+}
+
+.leftBox > .leftFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftBox > .leftFooter > .firstLine {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.leftBox > .leftFooter > .secondLine {
+    color: hsl(241, 100%, 89%);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.leftBox > .leftHeader {
+    margin: 10%;
+    margin-top: 12%;
+}
+
+
+.leftBox > .leftFooter {
+    margin: 11%;
+    margin-top: 10%;
+}
+
+.leftBox > .leftFooter > .secondLine {
+    margin-top: 5%;
+}
