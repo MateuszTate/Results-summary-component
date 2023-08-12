@@ -18,6 +18,7 @@ body {
     -moz-box-shadow: 7px 7px 30px -12px rgba(0, 5, 73, 1);
     box-shadow: 7px 7px 30px -12px rgba(0, 5, 73, 1);
     border-radius: 30px;
+    min-width: 550px;
 }
 
 .mainBox > .leftBox {
@@ -35,6 +36,9 @@ body {
     height: 100%;
     width: 50%;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .leftBox > .leftHeader {
@@ -105,4 +109,102 @@ body {
 
 .leftBox > .leftFooter > .secondLine {
     margin-top: 5%;
+}
+
+
+
+.rightBox > .rightHeader {
+    font-size: 1.56rem;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    margin: 10%;
+    margin-top: 12%;
+}
+
+.rightBox > .rightMain {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 80%;
+}
+
+.rightBox > .rightMain > .bars {
+    display: flex;
+    padding: 18px;
+    gap: 18px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#memory {
+    color: hsl(39, 100%, 56%);
+}
+
+#reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+#verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+#visual {
+    color: hsl(234, 85%, 45%);
+}
+
+#one {
+    background-color:hsla(0,100%,67%,0.1);
+}
+
+#two {
+    background-color:hsla(39,100%,56%,0.1);
+}
+
+#three {
+    background-color:hsla(166,100%,37%,0.1);
+}
+
+#four {
+    background-color:hsla(234,85%,45%,0.1);
+}
+
+
+.score {
+    margin-left: auto;
+}
+
+.firstScore {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.maxScore {
+    color: hsl(222, 11%, 56%);
+}
+
+.rightBox > .rightFooter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.rightFooter > div {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    height: 35%;
+    width: 80%;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.rightFooter > div:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
